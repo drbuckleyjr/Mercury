@@ -9,7 +9,7 @@
 %%% arbitrary precision: integer.zero and integer.one. This module
 %%% provides additional integers of arbitrary precision used in the 
 %%% module primality. To use this module's representation for the 
-%%% integer 1000, for example, one would call ap.n1000.
+%%% integer 1000, for example, one would call ap.n1000, or simply n1000.
 
 :- module ap.
 
