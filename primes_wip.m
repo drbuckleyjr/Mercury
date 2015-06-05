@@ -126,7 +126,6 @@ f(X, R, N) = ((X * X) +R) rem N.
 %----------------------------------------------------------------------%
 	%% rho/1 receives a composite integer, N, and returns
 	%% a factor, P, of N. When N is prime, rho returns N.
-%:- func rho(gmp_int) = gmp_int is semidet.
 
 rho(N) = Res :-
     R = n7,
