@@ -31,7 +31,7 @@ main(!IO) :-
   %          TEST THE isPrime/1 PREDICATE
   %          $ ./test_isPrime_mpm M
   %--------------------------------------------------------%
-	( isPrime(M) ->
+    ( isPrime(M) ->
         io.format("   isPrime(%s) = true.\n", 
                             [s(integer.to_string(M))], !IO)
     ;
