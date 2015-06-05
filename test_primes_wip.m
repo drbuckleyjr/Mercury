@@ -30,12 +30,10 @@ main(!IO) :-
   % TEST THE PRIMES FUNCTION
   % $ ./test_primes_wip M N
   %--------------------------------------------------------%
-	P = primes(M, N),    %% primes(M,N) is det.
-    io.format("   primes(%s, %s) = [", [s(integer.to_string(M)),
-							 s(integer.to_string(N))],!IO),
-	io.write_string(string.join_list(", ", 
-							 map(integer.to_string, P)), !IO),
-	io.write_string("].\n", !IO).
+    P = primes(M, N),    %% primes(M,N) is det.
+    io.format("   primes(%s, %s) = [", [s(integer.to_string(M)), s(integer.to_string(N))],!IO),
+    io.write_string(string.join_list(", ", map(integer.to_string, P)), !IO),
+    io.write_string("].\n", !IO).
 
 %----------------------------------------------------------------------%
 :- end_module test_primes_wip.
