@@ -6,6 +6,6 @@ arbitrary precision integers.
      Mercury Integer Library for use by "primality" and "primes".
   2. The "primality" module implements the Miller-Rabin primality test using pred isPrime/1.
   3. The "primes" module implements several functions useful in exploring prime numbers, these include:
-     a. func primeFactors/1 that returns a list of the prime factors of a composite number;
-     b. func primes/2 that returns a list of all prime numbers from a lower limit through an upper limit; and
-     c. pred prime/1 that uses trial division and the Miller-Rabin primality test to determine if an integer is prime.
+     (a) func primeFactors/1 that returns a list of the prime factors of a composite number;
+     (b) func primes/2 that returns a list of all prime numbers from a lower limit through an upper limit; and
+     (c) pred prime/1 that uses trial division and the Miller-Rabin primality test selectively to determine if an integer is prime.
